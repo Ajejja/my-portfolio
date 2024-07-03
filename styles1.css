@@ -1,51 +1,18 @@
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-}
-/* Add these styles to your existing CSS file */
-
-/* Button Styles */
 .main-btn {
+    margin-top: 20px; /* Adds space above the button */
+    margin-bottom: 20px; /* Adds space below the button */
     border-radius: 30px;
     color: var(--color-white);
     font-weight: 600;
-    position: relative;
+    display: inline-flex; /* Properly aligns content horizontally */
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    padding: 10px 20px;
     border: 1px solid var(--color-secondary);
-    display: flex;
-    align-self: flex-start;
-    align-items: center;
-    overflow: hidden;
-    background-color: var(--color-secondary); /* Set a more visible background color */
+    background-color: var(--color-secondary); /* Using the vibrant secondary color */
     transition: all 0.4s ease-out;
-}
-
-.main-btn .btn-text {
-    padding: 0 2rem;
-}
-
-.main-btn .btn-icon {
-    background-color: var(--color-primary); /* Adjust the icon background for contrast */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    padding: 1rem;
-}
-
-.main-btn:hover {
-    background-color: var(--color-grey-1); /* Lighter background on hover */
-    color: var(--color-primary); /* Darker text color on hover */
-}
-
-.main-btn:hover .btn-icon {
-    background-color: var(--color-grey-4); /* Darker icon background on hover */
-}
-
-.main-btn:hover::before {
-    background-color: var(--color-grey-3); /* Subtle change for hover */
+    cursor: pointer; /* Indicates it's clickable */
+    position: relative; /* For pseudo-element positioning */
 }
 
 

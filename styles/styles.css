@@ -454,6 +454,9 @@
   .about-stats .progress-bars .progress-bar .progress-con .progress .flask {
     width: 35%;
   }
+.about-stats .progress-bars .progress-bar .progress-con .progress .c {
+    width: 80%;
+  }
 
   .about-stats .progress-bars .progress-bar .progress-con .progress .english {
     width: 95%;

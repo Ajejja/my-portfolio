@@ -484,6 +484,14 @@ section {
 .python { width: 70%; }
 .flask { width: 35%; }
 .kotlin { width: 70%; }
+.japanese { width: 70%; }
+.english { width: 94%; }
+.french { width: 90%; }
+.arabic { width: 99%; }
+
+
+
+
 
 .stat-title {
     text-transform: uppercase;
